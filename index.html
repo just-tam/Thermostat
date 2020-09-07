@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Thermostat</title>
+    <script language="JavaScript" type="text/javascript" src="src/jquery-3.5.1.min.js"></script>
+    <script src="src/thermostat.js"></script>
+    <script src="src/interface.js"></script>
+    <script src="src/weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/thermostat.css">
+</head>
+
+<body>
+    <h1>Thermostat</h1>
+    <p>Current temperature is:</p>
+    <p id="temperature"></p>
+    <button id="temperature-up">Increase temperature</button>
+    <button id="temperature-down">Decrease temperature</button>
+    <button id="temperature-reset">Reset temperature</button>
+    <p>Power saving mode is <span id="power-saving-status">on</span></p>
+    <button id="powersaving-on">Powersaving mode on</button>
+    <button id="powersaving-off">Powersaving mode off</button>
+
+    <p>Current weather in London is:</p>
+    <p id="weather"></p>
+    <p>Current temperature in London is:</p>
+    <p id="outside-temp">&nbsp; degrees</p>
+</body>
+
+</html>
